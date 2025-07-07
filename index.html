@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Jhanvi | Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-content">
+    <div class="text">
+      <h1>Hi, I'm <span class="neon">Jhanvi</span></h1>
+      <p>Full-stack developer & cybersecurity learner, building modern, secure applications while exploring creative problem-solving.</p>
+    </div>
+    <div class="photo">
+      <img src="./sticker.png" alt="Jhanvi's Photo" />
+    </div>
+  </div>
+</header>
+
+<section class="about">
+  <div class="content">
+    <h2>About Me</h2>
+    <p>I'm a <span style="color: #c993ff;">Computer Science graduate</span> from Chitkara University, Punjab.<br>I'm passionate about creating secure, scalable, and user-friendly <span style="color: #c993ff;">web and desktop applications</span>. With hands-on experience in <span style="color: #c993ff;">full-stack development, Java, and cybersecurity</span>, I enjoy solving real-world problems through technology.
+        I've worked on some projects to gain hands-on experience. My goal is to build solutions that not only work well but also make a positive impact. I'm always eager to learn, grow, and contribute to exciting and meaningful tech projects.</p>
+    <a href="./resume24june.pdf" target="_blank" class="resume">📄 View My Resume</a>
+  </div>
+</section>
+
+<section class="tech-stack">
+  <h2>Technical Skills</h2>
+
+  <div class="icons">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Core Java">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React.js">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB">
+    </div>
+
+  <div class="skills-cards">
+    <div class="skill-card">
+      <h3>Frontend</h3>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>React.js</li>
+      </ul>
+    </div>
+
+    <div class="skill-card">
+      <h3>Backend</h3>
+      <ul>
+        <li>Node.js</li>
+        <li>Express.js</li>
+        <li>MongoDB</li>
+      </ul>
+    </div>
+
+    <div class="skill-card">
+      <h3>UI/UX & Tools</h3>
+      <ul>
+        <li>Figma</li>
+        <li>Bootstrap</li>
+        <li>TailwindCSS</li>
+      </ul>
+    </div>
+
+    <div class="skill-card">
+      <h3>Other</h3>
+      <ul>
+        <li>Core Java</li>
+        <li>Cybersecurity Fundamentals</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+<section class="projects">
+  <h2>Projects</h2>
+  <div class="projects-grid">
+    <div class="project">
+      <h3>StegaCrypt 🔒🔓</h3>
+      <p>Built a PySide6 desktop app to hide and reveal text or files within images, with AES encryption and password protection. Designed a compact, intuitive UI with file-saving and strong data security features.</p>
+      <a href="https://github.com/jhanvidhawan/StegaCrypt-Steganography-desktop-Application" target="_blank" class="btn-link">GitHub Link</a>
+    </div>
+    <div class="project">
+      <h3>Work Wave 👥</h3>
+      <p>Developed an HR Management System using the MERN stack, streamlining employee management and leave tracking. Integrated REST APIs, secure authentication, and Redux for a responsive, scalable user experience.</p>
+    </div>
+    <div class="project">
+      <h3>Insight Hub 💻</h3>
+      <p>Created a Learning Management System with the MERN stack, supporting video lectures and admin tools for course management. Implemented JWT authentication, OTP-based verification, and secure password reset.</p>
+    </div>
+    <div class="project">
+      <h3>3D Solar System Simulation ☀️🌎</h3>
+      <p>Built an interactive 3D model of the solar system using Three.js with realistic planetary orbits, lighting, and background stars. Added pause/resume, speed controls, and tooltips for enhanced UX, fully optimized for mobile.</p>
+      <a href="https://jhanvidhawan.github.io/3D-Solar-System/" target="_blank" class="btn-link">View Project</a>
+    </div>
+  </div>
+</section>
+
+<section class="cert-achieve">
+  <div class="cert">
+    <h2>Certifications</h2>
+    <ul>
+      <li>Coursera: Web Development</li>
+      <li>Software Testing: NPTEL</li>
+      <li>UX Design: Google</li>
+      <li>JavaScript Essentials: Cisco Networking Academy</li>
+    </ul>
+  </div>
+  <div class="achieve">
+    <h2>Achievements</h2>
+    <ul>
+      <li>Deloitte Australia Cyber Job Simulation on Forage - June 2025: Web activity logs (supported a client in a cyber security breach).</li><br>
+      <li>NPTEL Software Testing Exam: Earned a cash reward for outstanding performance demonstrating understanding of software testing basic concepts.</li>
+    </ul>
+  </div>
+</section>
+
+
+<section class="contact">
+    <h2>Contact Me</h2>
+<form id="contactForm">
+  <input type="text" name="name" placeholder="Your Name" required />
+  <input type="email" name="email" placeholder="Your Email" required />
+  <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+  <button type="submit">Send Message</button>
+  <p id="formStatus"></p>
+</form>
+
+
+</section>
+
+<footer>
+  <p><p>Let's connect 💜</p></p>
+  <div class="social-links">
+    <a href="https://github.com/jhanvidhawan" target="_blank">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub" />
+    </a>
+    <a href="https://www.linkedin.com/in/jhanvi-dhawan12/" target="_blank">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" />
+    </a>
+    <a href="mailto:jhanvidhawan55@gmail.com">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/gmail.svg" alt="Email" />
+    </a>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
